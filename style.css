@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right,#0adc0a,black);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.titlecontainer{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    height: 100px;
+}
+.mainContainer{
+    background-color: rgba(8, 77, 16, 0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 700px;
+    height: 200px;
+    justify-content:center;
+    text-align:center;
+    padding: 20px;
+    position: relative;
+    top: 180px;
+    left: 350px;
+}
+.WelcomeHeading{
+    font-weight: bolder;
+    font-size: large;
+}
+.site{
+    font-size: large;
+    font-weight: bold;
+    margin: 50px;
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(30, 113, 5);
+    font-size:large;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+.button:hover{
+    background-color: rgb(30, 113, 5,.5);
+}
